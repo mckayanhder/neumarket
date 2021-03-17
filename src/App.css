@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background: #006a8b;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: black;
+}
+
+.coin-search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  margin-left: 10px;
+  width: 300px;
+  height: 80px;
+  border: none;
+  border-radius: 15px;
+  background: #006a8b;
+  box-shadow: 29px 29px 57px #004d65, -29px -29px 57px #0087b1;
+  color: #e2e2e2;
+}
+
+.coin-input::placeholder {
+  color: #e2e2e2;
+  margin-left: 20px;
+}
+
+.logo {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  height: 200px;
+  width: 200px;
+  background: url("./img/neumarket.png");
+  background-repeat: no-repeat;
+  box-shadow: 29px 29px 57px #004d65, -29px -29px 57px #0087b1;
+  border-radius: 63px;
+}
+
+button {
+  position: absolute;
+  right: 20%;
+  top: 14%;
+  padding: 35px;
+  box-shadow: 29px 29px 57px #004d65, -29px -29px 57px #0087b1;
+  border-radius: 15px;
+  border: none;
+}
